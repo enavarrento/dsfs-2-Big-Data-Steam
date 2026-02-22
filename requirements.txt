@@ -1,0 +1,5 @@
+# requirements.txt
+# Core dependencies for local PySpark execution
+# Note: These are pre-installed on standard Databricks Runtimes.
+
+pyspark>=3.3.0
