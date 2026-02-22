@@ -8,7 +8,7 @@ The dataset consists of semi-structured JSON data representing over 60,000 games
 ## Deliverable Access
 * **Code & Execution:** The PySpark notebook is available in `notebooks/steam_analysis.ipynb`.
 * **Visualizations & Dashboard:** Due to Databricks deprecating public notebook publishing for security reasons, the fully executed notebook (with all interactive visualizations) has been exported as an HTML file. 
-* 👉 **Please download and open `assets/steam_analysis_exported.html` in any web browser to view the interactive charts. 👉[link here](https://github.com/enavarrento/dsfs-2-Big-Data-Steam/blob/main/assets/steam_analysis_exported.html)**
+* 👉 **Please download and open `assets/steam_analysis_exported.html` in any web browser to view the interactive charts OR view it directly in the👉[link here](https://enavarrento.github.io/dsfs-2-Big-Data-Steam/assets/steam_analysis_exported.html)**
 
 ## Data Source
 The raw data is stored in AWS S3 and ingested directly into the Databricks cluster:
