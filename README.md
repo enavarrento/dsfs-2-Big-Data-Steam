@@ -27,7 +27,7 @@ The analysis is divided into three core levels:
 * **Language:** Python
 
 ## Repository Structure
-
+```text
 ├── assets/              # Static exports of dashboards and architectural diagrams
 ├── notebooks/           # Core EDA Databricks notebook
 ├── src/                 # Modularized PySpark transformation scripts
@@ -38,7 +38,7 @@ The analysis is divided into three core levels:
 │   └── 05_platform_analysis.py
 ├── README.md            # Project documentation
 └── requirements.txt     # Local environment dependencies
-
+```
 
 ## Key Technical Implementations
 * **Nested Data Flattening:** Utilized PySpark's `explode()` and struct unpacking to normalize highly nested JSON arrays (e.g., tags, genres, and platforms).
